@@ -907,12 +907,13 @@ form textarea {
     width: 85%;
   }
 
-  .about-btn {
-    margin-top: 390px;
+    .about-btn {
+    margin-top: 420px;
     margin-left: 93px;
     padding: 13px 22px;
     font-size: 0.8rem;
   }
+
 
   .ed-ex-container {
     width: 100%;
