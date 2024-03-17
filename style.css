@@ -753,7 +753,15 @@ form textarea {
 
 /* CSS For Small Device */
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 938px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   .bx-x {
     display: block;
     font-size: 33px;
@@ -769,7 +777,7 @@ form textarea {
   }
 
   nav ul {
-    background-color: #e63946;
+    background-color: #f54476;
     position: fixed;
     top: 0;
     right: -200px;
@@ -805,6 +813,10 @@ form textarea {
     cursor: pointer;
   }
 
+  main{
+    width: 100%;
+  }
+
   .header-text h1 {
     font-size: 30px;
   }
@@ -836,37 +848,68 @@ form textarea {
 
   .about-img {
     display: none;
+    width: 10px;
+    height: 10px;
   }
 
   .About-Me {
+  width: 100%;
+  height: 75vh;
+  padding: 65px 20px ;
+  margin-top: -30px;
+}
+
+.about-main {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  min-height: 0;
+}
+
+.about-text {
+  width: 100%;
+}
+
+  /* .About-Me {
     width: 100%;
     padding: 51px 0px;
     margin-top: -33px;
   }
 
+  .about-main {
+  width: 100%;
+  }
+
+  .about-text {
+  width: 90%;
+} */
+
   .about-text h2 {
-    font-size: 3rem;
+    margin-right: 33px;
+    font-size: 2.5rem;
     text-align: center;
+
   }
 
   .about-text h4 {
+        margin-right: 33px;
     font-size: 1.5rem;
     text-align: center;
   }
 
   .about-text p {
     position: absolute;
+    left: 8%;
     font-size: 0.7rem;
     letter-spacing: 0px;
     margin-bottom: 100px;
-    margin-left: 17px;
     width: 85%;
   }
 
   .about-btn {
-    position: absolute;
-    top: 178%;
-    left: 34%;
+    margin-top: 390px;
+    margin-left: 93px;
     padding: 13px 22px;
     font-size: 0.8rem;
   }
@@ -888,6 +931,7 @@ form textarea {
 
   .work-ex {
     line-height: 51px;
+   
   }
 
   .col .contents {
